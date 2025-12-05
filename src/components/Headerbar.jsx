@@ -15,7 +15,7 @@ const Headerbar = () => {
 
   const toggleBrowseActive = () => {
     setIsBrowseActive(!isBrowseActive);
-  
+  }
 
   const toggleNewsActive = () => {
     setIsNewsActive(!isNewsActive);
@@ -113,7 +113,8 @@ const Headerbar = () => {
         </div>
       </div>
     </div>
-  );
+    );
+  };
 };
 
 export default Headerbar;
